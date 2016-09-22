@@ -193,28 +193,25 @@ hr {
     width:100%;
 }
 
+/* HEADER */
+
 .header {
     width:960px;
     margin:0 auto 20px;
     position: relative;
 }
 
-
-
-/* HEADER */
-
 .header .logo {
-    display:block;
-    float:left;
+    display: block;
+    float: left;
     position: absolute;
-    left:28px;
-    top:40px;
+    top: 40px;
 }
 
 .header .header-right {
-    float:right;
-    width:702px;
-    margin:50px 0 0 ;
+    float: right;
+    width: 750px;
+    margin: 72px 0 0;
 }
 
 .social {
@@ -244,12 +241,12 @@ hr {
 }
 
 .nav li a {
-    font-weight: bold;
-    font-size: 12px;
+    font-weight: 400;
+    font-size: 14px;
     display: block;
-    color:#3f3c31;
+    color: #3f3c31;
     text-transform: uppercase;
-    padding: 16px 16px 16px 16px;
+    padding: 16px 8px;
     text-decoration: none;
 }
 
@@ -265,10 +262,10 @@ hr {
 }
 
 .additional-nav a {
-    width:60px;
-    height:60px;
-    float:left;
-    display:block;
+    width: 65px;
+    height: 60px;
+    float: left;
+    display: block;
     background-image: url(../images/am-hover.png);
     background-repeat: no-repeat;
     background-position: center bottom;
@@ -361,7 +358,6 @@ hr {
     border-radius: 10px;
 }
 
-
 .block {
     margin-bottom:20px;
 }
@@ -444,7 +440,6 @@ hr {
     text-indent: -99999px;
 }
 
-
 .last-added .article {
     padding:10px 15px;
     margin-bottom:20px;
@@ -454,6 +449,7 @@ hr {
     -moz-border-radius: 10px;
     border-radius: 10px;
 }
+
 .last-added .article a h1 {
     font-size:13px;
     font-weight:bold;
@@ -493,6 +489,7 @@ hr {
     width:225px;
     height: 80px;
 }
+
 .popular-item:last-child {
     margin-bottom:0;
     border-bottom:0;
@@ -509,13 +506,11 @@ hr {
     background: url(../images/bhead3.png) no-repeat left center; 
 }
 
-
 .video-recepts .recept-item {
     float:left;
     margin: 0 5px 5px 0;
 	
 }
-
 
 .video-recepts .recept-item:nth-child(even) {
     margin-right:0;
