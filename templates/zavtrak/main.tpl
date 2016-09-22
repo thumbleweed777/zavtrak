@@ -107,13 +107,7 @@
                     <div class="block popular-recepts">
                         <div class="block-head"><h2>ѕопул€рные рецепты</h2></div>
                         <div class="block-content">
-						
-						
-
-						
-										
-														{tag_block}
-												
+                            {tag_block}
                         </div>   
                     </div>
                     
@@ -184,7 +178,7 @@ screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
 
 
 
-					Ч вкусные рецепты, 2012<br />
+					Ч вкусные рецепты, 2012 - 2016<br />
                     ѕри копировании материалов с сайта обратна€ ссылка об€зательна
                 </p>
                 <p class="live">

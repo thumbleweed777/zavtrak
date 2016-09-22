@@ -34,7 +34,6 @@ $results = $db->super_query($query, true);
 $tag_block = '';
 
 foreach ($results as $result) {
-
     $tmp = str_ireplace('{title}' , $result['descr'], $tagConfig['block_template']);
     $tmp = str_ireplace('{img}' , '/uploads/taginator/Small-'.$result['image'], $tmp);
     $tmp = str_ireplace('{link}' , '/'.$result['name'].'.html', $tmp);
