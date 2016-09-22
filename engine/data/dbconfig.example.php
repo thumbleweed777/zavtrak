@@ -1,12 +1,12 @@
 <?PHP
 
-define ("DBHOST", "localhost"); 
+define ("DBHOST", "172.17.0.1:3306");
 
 define ("DBNAME", "xxx");
 
 define ("DBUSER", "xxx");
 
-define ("DBPASS", "xxx")("DEW");
+define ("DBPASS", "xxx");
 
 define ("PREFIX", "dle"); 
 

@@ -1,25 +1,24 @@
-web:
-  build: .
-  command: php -S 0.0.0.0:8000 -t /app
-  links:
-    - db
-  ports:
-    - "8000:8000"
-  environment:
-    - UPLOAD_SIZE=10G
+php:
+  build: images/centos
   volumes:
-    - ./:/app
+    - "./:/var/www/html"
+    - "./bin/composer.phar:/usr/local/bin/composer"
+    - "./conf/php.ini:/etc/php.ini"
+  working_dir: /var/www/html
+  ports:
+    - "8888:80"
+
 phpmyadmin:
-    image: phpmyadmin/phpmyadmin
-    container_name: phpmyadmin
-    environment:
-     - PMA_ARBITRARY=1
-     - UPLOAD_SIZE=10G
-    restart: always
-    ports:
-     - 8080:80
-    volumes:
-     - /sessions
+  image: phpmyadmin/phpmyadmin
+  container_name: phpmyadmin
+  environment:
+   - PMA_ARBITRARY=1
+   - UPLOAD_SIZE=10G
+  restart: always
+  ports:
+   - 8080:80
+  volumes:
+   - /sessions
 db:
   image: mysql
   ports:

@@ -6,7 +6,7 @@ $config = array (
 
 'home_title' => "Пошаговые рецепты с фотографиями 2015!",
 
-'http_home_url' => "http://zavtrak.org/",
+//'http_home_url' => "http://zavtrak.org/",
 
 'charset' => "windows-1251",
 
