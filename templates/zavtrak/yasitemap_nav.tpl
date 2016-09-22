@@ -1,0 +1,1 @@
+<div class="right-block-c" align="center">Карта сайта "Завтрак.орг"</div>

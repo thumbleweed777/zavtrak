@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: http://zavtrak.org/sitemap.xml
+Host: zavtrak.org

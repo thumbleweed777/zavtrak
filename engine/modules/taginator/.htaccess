@@ -1,0 +1,4 @@
+deny from all
+<Files cron.php>
+allow From All
+</Files>

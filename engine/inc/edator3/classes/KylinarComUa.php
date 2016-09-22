@@ -1,0 +1,100 @@
+<?php
+/**
+ * Created by JetBrains PhpStorm.
+ * User: alex
+ * Date: 06.06.12
+ * Time: 23:38
+ * To change this template use File | Settings | File Templates.
+ */
+class KylinarComUaParserCore extends ParserCore
+{
+
+
+    public function getTitle()
+    {
+        /* @var $dom simple_html_dom  */
+        $dom = $this->contentDom;
+
+        if ($dom instanceof simple_html_dom) {
+            $text = trim($dom->find('.storytitle a', 0)->plaintext);
+
+        } else {
+            return false;
+        }
+        return $text;
+    }
+
+    public function getIngredients()
+    {
+        /* @var $dom simple_html_dom  */
+
+
+        return false;
+
+
+        return $text;
+    }
+
+    public function getMethod()
+    {
+        /* @var $dom simple_html_dom  */
+
+        $dom = $this->contentDom;
+
+        if ($dom instanceof simple_html_dom) {
+
+
+            $text = trim($dom->find('div.storycontent', 0)->innertext);
+            $text = preg_replace('#<u>Рецепт приготовления:[^<]+</u><br>#', '', $text);
+            $text = $this->rewriter->rewrite($text);
+
+        } else {
+            return false;
+        }
+
+        return $text;
+    }
+
+    public function getPageLinks()
+    {
+
+        $links = parent::getPageLinks();
+
+        return $links;
+    }
+
+
+    public function getPageLinksPath()
+    {
+        return '.wp-pagenavi a';
+    }
+
+    public function getPageLinksReplace($href, $i)
+    {
+        return preg_replace('#page/(\d+)#', "page/$i", $href);
+    }
+
+    public function getPageLinksPageFindPattern()
+    {
+        return '#page/(\d+)#';
+    }
+
+
+    public function getPostLinks($url)
+    {
+        /* @var $dom simple_html_dom  */
+        $links = array();
+
+        $dom = $this->getDom($url);
+
+        $fLinks = $dom->find('.storytitle a');
+        foreach ($fLinks as $fLink) {
+            $links[] = $fLink->href;
+        }
+
+        return $links;
+    }
+
+
+
+}

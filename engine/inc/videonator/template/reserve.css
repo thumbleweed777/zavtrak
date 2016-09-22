@@ -1,0 +1,75 @@
+/* @override http://dle/engine/modules/reserve/template/reserve.css */
+
+#reserve_content {
+width: 750px;
+margin-left: auto;
+margin-right: auto;	
+}
+
+#reserve_content form ul {
+	list-style: none;
+	font-size: 14px;
+}
+#reserve_content form ul li {
+margin-top: 10px;
+}
+
+#reserve_content input {
+	
+	width: 380px;
+	border: 1px solid #a1a1a1;
+	border-radius:6px;
+	height: 20px;
+	padding-left: 4px;
+	
+}
+
+#reserve_content form ul li ul.error_list li {
+	font-family: arial;
+	font-size: 11px;
+    width: 213px;
+    padding-top: 10px;
+    
+float: right;
+
+	color: #f95146;
+}
+
+textarea#reserve_desire {
+	width: 380px;
+	padding: 5px;
+	border: 1px solid silver;
+}
+
+#reserve_content form input.submit-btn.add {
+	
+	margin-left: 103px;
+	font-size: 13px;
+	display: block;
+	width: 300px;
+	border-color: silver;
+	border-radius: 15px;
+	height:30px;
+	background: #ffffff; /* Old browsers */
+background: -moz-linear-gradient(top, #ffffff 0%, #e5e5e5 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#e5e5e5)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #ffffff 0%,#e5e5e5 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #ffffff 0%,#e5e5e5 100%); /* Opera11.10+ */
+background: -ms-linear-gradient(top, #ffffff 0%,#e5e5e5 100%); /* IE10+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-9 */
+background: linear-gradient(top, #ffffff 0%,#e5e5e5 100%); /* W3C */
+	
+}
+
+
+#reserve_content form ul li label {
+	display: block;
+
+}
+
+#reserve_content form {
+	
+	padding-right: ;
+	padding-left: 104px;
+}
+
