@@ -236,7 +236,7 @@ hr {
 }
 
 .nav li {
-    margin: 0 8px;
+    margin: 0;
     display: inline-block;
 }
 
@@ -246,7 +246,7 @@ hr {
     display: block;
     color: #3f3c31;
     text-transform: uppercase;
-    padding: 16px 8px;
+    padding: 16px 16px;
     text-decoration: none;
 }
 
@@ -863,6 +863,7 @@ margin-bottom: 15px;}
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
+    margin-bottom: 30px;
 }
 
 .dpad h1 {
@@ -883,4 +884,8 @@ margin-bottom: 15px;}
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px!important;
+}
+
+.tagmap_link {
+    float: right;
 }
