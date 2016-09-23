@@ -8,6 +8,7 @@ ehthumbs.db
 Thumbs.db
 uploads/
 backup/
-engine/cache/*
+engine/cache/
 engine/data/dbconfig.php
+supervisord.log
 supervisord.pid

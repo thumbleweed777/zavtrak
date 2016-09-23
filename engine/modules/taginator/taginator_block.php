@@ -42,7 +42,7 @@ foreach ($results as $result) {
     $tag_block .= $tmp;
 }
 
-$tag_block .= '<a  style="color: #000000; float: right;" href="/tagmap/">еще</a> <br clear="all" />';
+$tag_block .= '<a class="tagmap_link" href="/tagmap/">еще</a> <br clear="all" />';
 
 }else {
     $tag_block = '';
