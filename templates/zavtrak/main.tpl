@@ -10,11 +10,40 @@
 		
 		<meta name='yandex-verification' content='45ea90d79eda87de' />
 		<meta name="google-site-verification" content="l3FtEIolKwbv1sL9FkMQ1WUa_cFggjIZxZUopSzadaU" />
-<noindex>
-<script>var boroda_group_id = "88770496";</script>
-<script async src="data:text/javascript;charset=utf-8;base64,dmFyIG49ZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgic2NyaXB0Iik7bi5zcmM9Ii8vdmJvcm8uZGUvc3Vic2NyaWJlMi9zdGVwMS5waHA/ZG9tPSIrbG9jYXRpb24uaG9zdG5hbWUrIiZzaXRlPTI3MCZnPSIrYm9yb2RhX2dyb3VwX2lkKyIiO24ub25yZWFkeXN0YXRlY2hhbmdlPWZ1bmN0aW9uKCl7Y29uc29sZS5sb2coImRvbmUiKTt9O24ub25sb2FkPWZ1bmN0aW9uKCl7Y29uc29sZS5sb2coImRvbmUiKTt9O2RvY3VtZW50LmdldEVsZW1lbnRzQnlUYWdOYW1lKCJoZWFkIilbMF0uYXBwZW5kQ2hpbGQobik7"></script>
-</noindex>
-</head>
+
+		<!-- Yandex.Metrika counter -->
+        <script type="text/javascript">
+            (function (d, w, c) {
+                (w[c] = w[c] || []).push(function() {
+                    try {
+                        w.yaCounter39797905 = new Ya.Metrika({
+                            id:39797905,
+                            clickmap:true,
+                            trackLinks:true,
+                            accurateTrackBounce:true
+                        });
+                    } catch(e) { }
+                });
+
+                var n = d.getElementsByTagName("script")[0],
+                    s = d.createElement("script"),
+                    f = function () { n.parentNode.insertBefore(s, n); };
+                s.type = "text/javascript";
+                s.async = true;
+                s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+                if (w.opera == "[object Opera]") {
+                    d.addEventListener("DOMContentLoaded", f, false);
+                } else { f(); }
+            })(document, window, "yandex_metrika_callbacks");
+        </script>
+        <noscript><div><img src="https://mc.yandex.ru/watch/39797905" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+        <!-- /Yandex.Metrika counter -->
+        <noindex>
+            <script>var boroda_group_id = "88770496";</script>
+            <script async src="data:text/javascript;charset=utf-8;base64,dmFyIG49ZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgic2NyaXB0Iik7bi5zcmM9Ii8vdmJvcm8uZGUvc3Vic2NyaWJlMi9zdGVwMS5waHA/ZG9tPSIrbG9jYXRpb24uaG9zdG5hbWUrIiZzaXRlPTI3MCZnPSIrYm9yb2RhX2dyb3VwX2lkKyIiO24ub25yZWFkeXN0YXRlY2hhbmdlPWZ1bmN0aW9uKCl7Y29uc29sZS5sb2coImRvbmUiKTt9O24ub25sb2FkPWZ1bmN0aW9uKCl7Y29uc29sZS5sb2coImRvbmUiKTt9O2RvY3VtZW50LmdldEVsZW1lbnRzQnlUYWdOYW1lKCJoZWFkIilbMF0uYXBwZW5kQ2hpbGQobik7"></script>
+        </noindex>
+    </head>
     <body>
         {AJAX}
     <div class="wrapper">
