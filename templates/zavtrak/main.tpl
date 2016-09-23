@@ -110,17 +110,6 @@
                             {tag_block}
                         </div>   
                     </div>
-                    
-                    <div class="block video-recepts">
-                        <div class="block-head"><h2><span class="icon">Кто онлайн?</span></h2><div class="clear"></div></div>
-                        <div class="clear"></div>
-                        <div class="block-content">
-                            <div class="recept-item">
-                                {online}
-                            </div> 
-                            <div class="clear"></div>              
-                        </div>
-                    </div> 
                 </div>
                 <div class="clear"></div>
             </div>

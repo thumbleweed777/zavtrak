@@ -5,7 +5,7 @@
         <?php foreach ($posts as $post): ?>
 
 
-        <td style="vertical-align: top; padding: 3px">
+        <td>
             <a href="/<?php echo $post['id'] ?>-<?php echo $post['alt_name'] ?>.html">
             
             
